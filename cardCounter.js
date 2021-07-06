@@ -3,14 +3,13 @@ let arrLength = cardArray.length;
 console.log(arrLength);
 console.log(Math.floor(Math.random() * arrLength));
 
-deal = () => {
+//returns hand of user
+dealHand = (cardArray) => {
     let randomCardOne= Math.floor(Math.random() * arrLength);
     let randomCardTwo= Math.floor(Math.random() * arrLength);
-    let cards = [randomCardOne, randomCardTwo];
-    return cards;
-}
-generateHand = (cards) => {
-  //Generate hand using given card ints corresponding to cardArray index.
+    //Remove dealt cards from array
+    let hand = [cardArray[randomCardOne], cardArray[randomCardTwo]];
+    return hand;
 }
 cardCount = () => {
   //Calculate count using hand values.
