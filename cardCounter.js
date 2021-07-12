@@ -3,6 +3,9 @@ let arrLength = cardArray.length;
 console.log(arrLength);
 console.log(Math.floor(Math.random() * arrLength));
 
+//rules 8 -> A = -1
+//rules 5 -> 2 = +1
+//else +0;
 //returns hand of user
 dealHand = (cardArray) => {
     let randomCardOne= Math.floor(Math.random() * arrLength);
