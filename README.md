@@ -6,7 +6,7 @@
     <dd></dd>
   </li>
   <li>
-    <dt> Create A Phone Number </dt>
+    <dt> Create A Phone Number (Codewars) </dt>
     <dd>
       Write a function that takes an array of integers, and returns a phone number formatted "(xxx) xxx-xxxx"
     </dd>
