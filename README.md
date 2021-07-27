@@ -1,14 +1,6 @@
-# Modern JavaScript
+# JavaScript
 <hr/>
-<ol>
-  <li>
-    <dt> Blackjack Card counter Program </dt>
-    <dd></dd>
-  </li>
-  <li>
-    <dt> Create A Phone Number (Codewars) </dt>
-    <dd>
-      Write a function that takes an array of integers, and returns a phone number formatted "(xxx) xxx-xxxx"
-    </dd>
-  </li>
-</ol>
+<dl>
+  <dt></dt>
+  <dd></dd>
+</dl>
