@@ -1,4 +1,11 @@
 let cardArray = ["a", "k", "q", "j", 10, 9, 8, 7, 6, 5, 4, 3, 2];
+const cardValue = {
+    'a':[1,11],
+    'k':10,
+    'q':10,
+    'j':10,
+    //... continue later
+         };
 let arrLength = cardArray.length;
 console.log(arrLength);
 console.log(Math.floor(Math.random() * arrLength));
@@ -15,5 +22,5 @@ dealHand = (cardArray) => {
     return hand;
 }
 cardCount = () => {
-  //Calculate count using hand values.
+  
 }
