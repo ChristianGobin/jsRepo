@@ -1,6 +1,6 @@
 # JavaScript
 <hr/>
-### Tech Used
+## Tech Used
 <dl>
   <dt>Vue</dt>
   <dt>JavaScript, Html, Css</dt>
