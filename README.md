@@ -1,6 +1,8 @@
 # JavaScript
 <hr/>
+### Tech Used
 <dl>
-  <dt></dt>
-  <dd></dd>
+  <dt>Vue</dt>
+  <dt>JavaScript, Html, Css</dt>
+  <dt>Node</dt>
 </dl>
