@@ -1,4 +1,4 @@
-# JavaScript
+# JavaScript ES6
 <hr/>
 Tech Used: <br/>
 <ul>
