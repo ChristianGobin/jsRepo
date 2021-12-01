@@ -1,2 +1,5 @@
-# JavaScript
-<p> Problem solutions and single page applications. </p>
+# JavaScript Full Stack Development
+<p>
+  Front End : React
+  Back End : Node.js
+</p>
