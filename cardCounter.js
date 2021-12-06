@@ -26,7 +26,7 @@ console.log(Math.floor(Math.random() * arrLength));
 dealHand = (cardArray) => {
     let randomCardOne= Math.floor(Math.random() * arrLength);
     let randomCardTwo= Math.floor(Math.random() * arrLength);
-    
+    cardArray.
     //Cards cannot be the same.
     if (randomCardOne == randomCardTwo) {
         
