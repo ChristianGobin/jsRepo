@@ -1,10 +1,14 @@
-import "./App.css";
-import "./CountButton";
-
+import "../App.css";
+import SearchBar from "./SearchBar";
+import CountButton from "./CountButton";
+//Passing props to components.
 function App() {
   return (
     <div className="App">
-      <CountButton />
+      <CountButton incrementBy={1} />
+      <CountButton incrementBy={5} />
+      <CountButton incrementBy={10} />
+      <SearchBar />
     </div>
   );
 }
