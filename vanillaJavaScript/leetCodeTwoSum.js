@@ -3,18 +3,25 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
-    let answer = [];
-    let targ = target;
-    for(let i = 0; i <= nums.length; i++){
-        if(nums[i] + nums[i+1] == targ){
-            answer.push(i,i+1);
-        }
-        else {
-            return answer;
-        }
+const twoSum = function(nums, target){
+	let newArray = nums.sort().reverse();
+  let firstPosition = 0;
+  let lastPosition = newArray.length;
+  let targetFound = false;
+  while(targetFound == false){
+  	if(newArray[firstPosition] + newArray[lastPosition] == target){
+    	targetFound = true;
+    	return [firstPosition , lastPosition];
+    } else if(newArray[firstPosition] + newArray[lastPosition] < target){
+    	firstPosition++;
+    } else if(newArray[firstPosition] + newArray[lastPosition] > target){
+    	lastPosition--;
+    } else if(firstPosition == lastPosition){
+    	targetFound = true;
+      console.log("No Solution.");
     }
-};
+  }
+}
 
 /* 
 a. Sort List in ascending order
