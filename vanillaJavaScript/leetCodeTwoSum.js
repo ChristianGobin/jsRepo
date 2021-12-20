@@ -23,6 +23,7 @@ const twoSum = function(nums, target){
   }
 }
 
+twoSum([1,2,3,4], 3);
 /* 
 a. Sort List in ascending order
 b. Start at the first(f) and last positions in a list(l).
