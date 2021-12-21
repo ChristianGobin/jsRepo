@@ -24,4 +24,52 @@ c. Add values until target is reached or consensus that the combination does not
 d. Keep running until target is reached.
 e. Log positions of key pair that reaches target value.
 
+
+
+========================================================================================
+const twoSum = function(nums, target) {
+  let newArray = nums.sort((a,b)=>{return a-b});
+  let firstPosition = 0;
+  let lastPosition = newArray.length;
+  let targetFound = false;
+  console.log(newArray)
+  while(targetFound !== true){
+    if((newArray[firstPosition] + newArray[lastPosition]) > target){
+    	console.log("If Fired");
+      console.log(newArray[firstPosition]);
+    	lastPosition--;
+      targetFound = false;
+    }
+    else if((newArray[firstPosition] + newArray[lastPosition]) < target){
+    	console.log("Else IF 1 fired");
+      firstPosition++;
+      targetFound = false;
+    }
+    else if((newArray[firstPosition] + newArray[lastPosition]) == target){
+    	console.log("Answer Found!");
+      let answer = [firstPosition, lastPosition];
+      targetFound = true;
+      return answer;
+    }
+  }
+}
+##########################################################################################################
+
+Sanity Check Function.
+testFunct = (nums) => {
+	let marker = false;
+  let sortedArray = nums.sort((a, b) => {return a-b});
+  let indO = 0;
+  let lastIndex = sortedArray.length;
+  while(marker !== true){
+  	if(lastIndex !== indO){
+    	console.log(sortedArray[indO]);
+      console.log(sortedArray[lastIndex]);
+      lastIndex--;
+      indO++;
+    }
+  }
+}
+
+
 */
