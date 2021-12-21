@@ -4,23 +4,14 @@
  * @return {number[]}
  */
 const twoSum = function(nums, target){
-	let newArray = nums.sort().reverse();
-  let firstPosition = 0;
-  let lastPosition = newArray.length;
-  let targetFound = false;
-  while(targetFound == false){
-  	if(newArray[firstPosition] + newArray[lastPosition] == target){
-    	targetFound = true;
-    	return [firstPosition , lastPosition];
-    } else if(newArray[firstPosition] + newArray[lastPosition] < target){
-    	firstPosition++;
-    } else if(newArray[firstPosition] + newArray[lastPosition] > target){
-    	lastPosition--;
-    } else if(firstPosition == lastPosition){
-    	targetFound = true;
-      console.log("No Solution.");
-    }
-  }
+	// sort into ascending order and compare 'a' against 'b'.
+	let newArray = nums.sort((a, b) => {return a - b});
+	let lastPosition = newArray.length;
+	let firstPosition = 0;
+	let targetFound = false;
+	
+	//while targetFound !== true
+	
 }
 
 twoSum([1,2,3,4], 3);
