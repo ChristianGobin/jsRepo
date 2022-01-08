@@ -25,4 +25,4 @@ multiplyByParam = (x) => {
 timesThree = multiplyByParam(3);
 timesNine = multiplyByParam(9);
 console.log(timesThree(3));
-console.log(timesNine(3));
+console.log(timesNine(4));
