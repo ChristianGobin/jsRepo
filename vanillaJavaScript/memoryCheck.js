@@ -1,59 +1,24 @@
 // Object
 // Class
 // Higher Order Functions
+// The map function runs a function on each element of array and returns a new array.
 
-let Student = {
-	'NAME' : "Christian",
-	'AGE' : 27
-}
+const setOfNums = [1, 3, 2, 3];
+const numsSquared = setOfNums.map(function(num){
+	return num*num;
+})
+console.log(numsSquared);
 
-class StudentClass {
-	setName = (name) => {
+//Object methods and attributes
+const Student = {
+	Name:'',
+	Age:'',
+	setName: function (name) {
 		this.Name = name;
 	}
 }
+Student.setName("Christian");
+console.log(Student.Name);
 
-console.log(Student['NAME']); //Student Object.
-
-const Christian = new StudentClass(); //StudentClass.
-
-Christian.setName("Christian");
-console.log(Christian.Name);
-
-
-// Function as arguments
-
-letThis = (func1 , x) => {
-	func1(x);
-}
-
-letThis(console.log, 3);
-
-// Higher Order Functions
-
-myFunc = (z) => {
-	return (x) => {
-		console.log(x + z);
-	}
-}
-
-let AddTo4 = myFunc(4); // Function sets z to 4 in outer function, returns inner function without x
-AddTo4(3);
-
-add = (x, y) => {
-	console.log(x+y);
-}
-
-sub = (x, y) => {
-	console.log(x-y);
-}
-
-mult = (x, y) => {
-	console.log(x*y);
-}
-
-div = (x, y) => {
-	console.log(x/y);
-}
-console.log(animal);
-var animal = "Dog";
+//Class aka object templates
+class 
