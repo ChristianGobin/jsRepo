@@ -27,4 +27,7 @@ const bezosPichai = maang.filter((item) => {
         return item.company;
     }
 });
-console.log(bezosPichai);
+
+// Array Destructuring.
+
+const ["Kid", "Zack", "Cam"] = brothers;
