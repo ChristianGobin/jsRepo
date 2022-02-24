@@ -1,11 +1,10 @@
 # JavaScript Full Stack Development
-<p>
-  Front End : React <br/>
-  Back End : Node.js <br/>
-  Console Apps: Vanilla JavaScript
-</p>
+<hr/>
+<img src="https://www.codewars.com/users/ChristianGobin/badges/large"/>
 <ul>
-  <li> React Applications </li>
-  <li> Vanilla JavaScript Exercises </li>
-  <li> Jquery </li>
+  <li>Data Structures and Algorithms </li>
+  <li>HackerRank</li>
+  <li>Code Wars</li>
+  <li>Leet Code</li>
 </ul>
+<hr/>
