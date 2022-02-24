@@ -6,5 +6,8 @@
   <li>HackerRank</li>
   <li>Code Wars</li>
   <li>Leet Code</li>
+  <li>Vanilla Js</li>
+  <li>React.js</li>
+  <li>Node.js</li>
 </ul>
 <hr/>
