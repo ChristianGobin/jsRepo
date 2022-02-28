@@ -7,6 +7,7 @@
   <li>Code Wars</li>
   <li>Leet Code</li>
   <li>Vanilla Js</li>
+  <li>JavaScript Browser Games </li>
   <li>React.js</li>
   <li>Node.js</li>
 </ul>
